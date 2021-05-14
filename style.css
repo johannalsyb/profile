@@ -1,0 +1,87 @@
+body {
+  background: radial-gradient(328px at 2.9% 15%, rgb(191, 224, 251) 0%, rgb(232, 233, 251) 25.8%, rgb(252, 239, 250) 50.8%, rgb(234, 251, 251) 77.6%, rgb(240, 251, 244) 100.7%);
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+ font-weight: ligther;
+}
+
+a {
+  color: #671dd6;
+}
+
+img {
+  border-radius: 105px
+}
+
+li {
+  list-style: none;
+}
+
+h3 {
+  font-size: 14px
+}
+
+.container {
+    width: 700px;
+    margin: 40px auto;
+  }
+
+.card {
+ padding: 10px 15px;
+ margin: 20px 70px ;
+ background-color: white;
+ border-radius: 7px;
+ text-align: center;
+}
+
+.btn-purple {
+background-color: #11d642;
+text-decoration: none;
+color: white;
+border-radius: 14px;
+padding: 10px 20px;
+}
+
+.btn-purple:hover {
+background-color: #d9f7e2;
+border: 1px solid #9feab6;
+color:#11d611;
+}
+
+h4 {
+  font-family: 'Caveat', cursive;
+  font-size: 30px;
+}
+
+.list li {
+ display: inline;
+}
+
+.list li i {
+  font-size: 40px;
+}
+
+ul {
+  padding : 0;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
